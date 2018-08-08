@@ -1,6 +1,1 @@
-`import pandas as pd #数据分析`
-`import numpy as np #科学计算`
-`from pandas import Series,DataFrame`
-
-`data_train = pd.read_csv("/Users/zhijun/Desktop/Titanic/all/train.csv")`
-`data_train.columns`
+<iframe src="http://nbviewer.jupyter.org/url/sarahfang9292.github.io/Titanic.ipynb" width="850" height="500"></iframe>
