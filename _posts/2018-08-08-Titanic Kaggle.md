@@ -1,23 +1,16 @@
+# Titanic on Kaggle
+Titanic problem is a basic data analysis example.
 
-## Hey
->这是我的第一篇博客。
-
-进入你的博客主页，新的文章将会出现在你的主页上.
-
-作者：BYQiu
-链接：https://www.jianshu.com/p/e68fba58f75c
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 
 ```python
-import pandas as pd #数据分析
-import numpy as np #科学计算
+import pandas as pd 
+import numpy as np 
 from pandas import Series,DataFrame
 
 data_train = pd.read_csv("/Users/zhijun/Desktop/Titanic/all/train.csv")
 data_train.columns
 ```
-hksdhaks
+
 
 
 
@@ -31,6 +24,7 @@ hksdhaks
 ```python
 data_train.info()
 ```
+Let's find out charateristics of each variables.
 
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 891 entries, 0 to 890
