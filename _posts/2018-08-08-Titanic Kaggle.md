@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np 
 from pandas import Series,DataFrame
 
-data_train = pd.read_csv("/Users/zhijun/Desktop/Titanic/all/train.csv")
+data_train = pd.read_csv(".../train.csv")
 data_train.columns
 ```
 
@@ -49,7 +49,7 @@ Let's find out charateristics of each variables.
 ```python
 data_train.describe()
 ```
-
+output different statistic parameters
 
 
 
@@ -204,7 +204,7 @@ plt.title('Number of People from Docks')
 plt.ylabel('Nubmber of People')  
 plt.show()
 ```
-
+plt.subplot2grid( )-----plot several figures intensively
 
 ![png](output_3_0.png)
 
@@ -235,7 +235,7 @@ plt.ylabel('Number of People')
 plt.title('Male in Low Cabin')
 ```
 
-
+add_subplot(nrows,ncols,index)---total rows, total colomns, location
 
 
     Text(0.5,1,'Male in Low Cabin')
@@ -262,13 +262,7 @@ f
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
 
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -497,13 +491,6 @@ data_train
         vertical-align: middle;
     }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
