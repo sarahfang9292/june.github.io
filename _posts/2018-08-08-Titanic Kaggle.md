@@ -206,8 +206,8 @@ plt.show()
 ```
 plt.subplot2grid( )-----plot several figures intensively
 
-![png](output_3_0.png)
-img/subplot2grid.png
+![png](img/subplot2grid.png)
+![png](img/subplot2grid.png）
 
 
 ```python
